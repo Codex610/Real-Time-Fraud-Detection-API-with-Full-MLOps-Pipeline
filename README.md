@@ -174,8 +174,8 @@ fraud-detection-mlops/
 **1. Clone and create virtualenv**
 
 ```bash
-git clone https://github.com/your-username/fraud-detection-mlops.git
-cd fraud-detection-mlops
+git clone https://github.com/Codex610/Real-Time-Fraud-Detection-API-with-Full-MLOps-Pipeline.git
+cd Real-Time-Fraud-Detection-API-with-Full-MLOps-Pipeline
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 ```

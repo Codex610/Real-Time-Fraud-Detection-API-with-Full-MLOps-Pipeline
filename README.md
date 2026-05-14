@@ -103,7 +103,7 @@ IEEE-CIS Raw Data
 ## Project Structure
 
 ```
-fraud-detection-mlops/
+Real-Time-Fraud-Detection-API-with-Full-MLOps-Pipeline/
 ├── src/
 │   ├── data/
 │   │   ├── preprocess.py           raw → cleaned DataFrame

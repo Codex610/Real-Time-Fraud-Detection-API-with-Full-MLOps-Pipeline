@@ -4,6 +4,10 @@
 > XGBoost + LightGBM ensemble trained on the IEEE-CIS Kaggle dataset, served via FastAPI,
 > tracked with MLflow, versioned with DVC, and monitored end-to-end with Prometheus + Grafana.
 
+[![CI/CD](https://github.com/your-username/fraud-detection-mlops/actions/workflows/retrain.yml/badge.svg)](https://github.com/your-username/fraud-detection-mlops/actions)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ---
 
 ## Table of Contents
@@ -103,7 +107,7 @@ IEEE-CIS Raw Data
 ## Project Structure
 
 ```
-Real-Time-Fraud-Detection-API-with-Full-MLOps-Pipeline/
+fraud-detection-mlops/
 ├── src/
 │   ├── data/
 │   │   ├── preprocess.py           raw → cleaned DataFrame
@@ -174,8 +178,8 @@ Real-Time-Fraud-Detection-API-with-Full-MLOps-Pipeline/
 **1. Clone and create virtualenv**
 
 ```bash
-git clone https://github.com/Codex610/Real-Time-Fraud-Detection-API-with-Full-MLOps-Pipeline.git
-cd Real-Time-Fraud-Detection-API-with-Full-MLOps-Pipeline
+git clone https://github.com/your-username/fraud-detection-mlops.git
+cd fraud-detection-mlops
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 ```

@@ -216,3 +216,37 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+.env
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+venv/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# data — tracked by DVC
+data/raw/*
+data/processed/*
+data/features/*
+!data/**/.gitkeep
+
+# models — tracked by DVC
+models/*
+!models/.gitkeep
+
+# mlflow
+mlruns/
+mlartifacts/
+
+# jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# misc
+.DS_Store
+*.log
